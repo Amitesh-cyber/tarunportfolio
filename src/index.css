@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 6%;
+    --foreground: 240 10% 95%;
+
+    --card: 240 10% 8%;
+    --card-foreground: 240 10% 95%;
+
+    --popover: 240 10% 8%;
+    --popover-foreground: 240 10% 95%;
+
+    --primary: 240 10% 95%;
+    --primary-foreground: 240 10% 6%;
+
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 240 10% 95%;
+
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 60%;
+
+    --accent: 340 95% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 5% 18%;
+    --input: 240 5% 18%;
+    --ring: 340 95% 60%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 240 10% 6%;
+    --sidebar-foreground: 240 5% 60%;
+    --sidebar-primary: 240 10% 95%;
+    --sidebar-primary-foreground: 240 10% 6%;
+    --sidebar-accent: 240 5% 15%;
+    --sidebar-accent-foreground: 240 10% 95%;
+    --sidebar-border: 240 5% 18%;
+    --sidebar-ring: 340 95% 60%;
+
+    --font-display: 'Satoshi', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: 240 10% 4%;
+    --foreground: 240 10% 95%;
+    --card: 240 10% 6%;
+    --card-foreground: 240 10% 95%;
+    --popover: 240 10% 6%;
+    --popover-foreground: 240 10% 95%;
+    --primary: 240 10% 95%;
+    --primary-foreground: 240 10% 4%;
+    --secondary: 240 5% 12%;
+    --secondary-foreground: 240 10% 95%;
+    --muted: 240 5% 12%;
+    --muted-foreground: 240 5% 55%;
+    --accent: 340 95% 60%;
+    --accent-foreground: 0 0% 100%;
+    --border: 240 5% 14%;
+    --input: 240 5% 14%;
+    --ring: 340 95% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+    line-height: 1.0;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+    line-height: 1.6;
+    max-width: 68ch;
+  }
+}
+
+@layer components {
+  .label-caps {
+    @apply text-xs font-medium uppercase tracking-widest text-muted-foreground;
+    letter-spacing: 0.08em;
+  }
+}
