@@ -6,38 +6,29 @@ import churnImg from "@/assets/project-churn.jpg";
 
 const projects = [
   {
-    title: "Air Quality Data Analysis",
-    period: "Sep 2025 – Nov 2025",
+    title: "AI-Powered Quiz & Learning Recommendation System",
+    period: "April 2025",
     bullets: [
-      "Explored Indian air quality datasets to identify pollution trends, seasonal variations, and patterns across cities.",
-      "Created interactive dashboards in Power BI using DAX measures, slicers, and filters for dynamic exploration.",
+      "Developed a full-stack web application using Python (Django) to deliver AI-driven quizzes, performance tracking, and personalized learning recommendations.",
+      "Integrated custom machine learning models and feature engineering pipelines to analyze user responses and identify weak areas.",
+      "Improved learning efficiency by enabling personalized recommendations, reducing weak-topic retention gaps by ~35% during testing."
+    ],
+    techStack: "Python · Django · Machine Learning",
+    image: predictiveImg,
+    github: "https://github.com/spidey1702",
+  },
+  {
+    title: "Flipkart Sales Analysis Dashboard",
+    period: "Oct 2024",
+    bullets: [
+      "Developed an interactive Power BI dashboard to analyze Flipkart sales data, including revenue trends, product performance, and customer insights.",
+      "Performed data cleaning and transformation using Power Query, ensuring accurate and structured datasets for analysis.",
+      "Improved decision-making efficiency by providing clear insights, reducing manual analysis effort by ~40%."
     ],
     techStack: "Power BI · Power Query · DAX",
     image: airQualityImg,
-    github: "https://github.com/Amitbhardwaj001",
-  },
-  {
-    title: "Predictive Analytics",
-    period: "May 2025 – Aug 2025",
-    bullets: [
-      "Developed ML models using retail datasets to predict outcomes and identify meaningful patterns.",
-      "Applied regression and classification algorithms; evaluated with accuracy, precision, recall, and RMSE.",
-    ],
-    techStack: "Python · Pandas · Scikit-learn · Matplotlib",
-    image: predictiveImg,
-    github: "https://github.com/Amitbhardwaj001",
-  },
-  {
-    title: "Customer Churn Prediction",
-    period: "Dec 2024 – Jan 2025",
-    bullets: [
-      "Analyzed customer churn dataset to identify patterns and factors affecting retention.",
-      "Tracked experiments, logged parameters and metrics, and managed model versions using MLflow.",
-    ],
-    techStack: "Python · Scikit-learn · MLflow · Pandas",
-    image: churnImg,
-    github: "https://github.com/Amitbhardwaj001",
-  },
+    github: "https://github.com/spidey1702",
+  }
 ];
 
 const WorkSection = () => (

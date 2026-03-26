@@ -25,8 +25,8 @@ const EducationSection = () => (
         </div>
         <div>
           <h3 className="font-display text-lg font-bold text-foreground">Lovely Professional University</h3>
-          <p className="text-sm text-muted-foreground">B.Tech – Computer Science & Engineering · CGPA: 8.04</p>
-          <p className="text-xs text-muted-foreground mt-1">Since Aug 2023 · Jalandhar, Punjab</p>
+          <p className="text-sm text-muted-foreground">B.Tech – Computer Science & Engineering · CGPA: 7.1</p>
+          <p className="text-xs text-muted-foreground mt-1">Since Aug 2023 - Present · Phagwara, Punjab</p>
         </div>
       </motion.div>
       <motion.div
@@ -40,9 +40,9 @@ const EducationSection = () => (
           <GraduationCap size={18} className="text-foreground" />
         </div>
         <div>
-          <h3 className="font-display text-lg font-bold text-foreground">Shanti Niketan Public School</h3>
-          <p className="text-sm text-muted-foreground">Intermediate · 82.4%</p>
-          <p className="text-xs text-muted-foreground mt-1">2021 – 2022 · Agra, U.P.</p>
+          <h3 className="font-display text-lg font-bold text-foreground">Kendriya Vidyalaya No.2 Jaipur</h3>
+          <p className="text-sm text-muted-foreground">Intermediate · 86%</p>
+          <p className="text-xs text-muted-foreground mt-1">April 2018 - March 2020 · Jaipur, Rajasthan</p>
         </div>
       </motion.div>
       <motion.div
@@ -56,9 +56,9 @@ const EducationSection = () => (
           <GraduationCap size={18} className="text-foreground" />
         </div>
         <div>
-          <h3 className="font-display text-lg font-bold text-foreground">Shanti Niketan Public School</h3>
-          <p className="text-sm text-muted-foreground">High School (10th) · 88.4%</p>
-          <p className="text-xs text-muted-foreground mt-1">2019 – 2020 · Agra, U.P.</p>
+          <h3 className="font-display text-lg font-bold text-foreground">Kendriya Vidyalaya No.1 Jalandhar</h3>
+          <p className="text-sm text-muted-foreground">Matriculation · 86%</p>
+          <p className="text-xs text-muted-foreground mt-1">April 2017 - March 2018 · Jalandhar, Punjab</p>
         </div>
       </motion.div>
     </div>

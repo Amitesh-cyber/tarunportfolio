@@ -14,8 +14,8 @@ const Hero = () => (
         <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-2xl overflow-hidden border-2 border-border shadow-2xl shadow-accent/10">
           <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent z-10" />
           <img
-            src="amit.jpeg"
-            alt="Amit Bhardwaj"
+            src="/Tarun_photo.jpeg"
+            alt="Tarun Kumar"
             className="w-full h-full object-cover"
           />
         </div>
@@ -33,11 +33,11 @@ const Hero = () => (
           className="font-display font-bold text-foreground mb-6"
           style={{ fontSize: "clamp(2rem, 4vw + 1rem, 3.5rem)" }}
         >
-          Hi, I'm Amit{" "}
-          <span className="text-accent">Bhardwaj</span>
+          Hi, I'm Tarun{" "}
+          <span className="text-accent">Kumar</span>
         </h1>
         <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-3">
-          A computer science engineer passionate about <span className="text-foreground font-medium">data analytics</span>,{" "}
+          A computer science engineer passionate about <span className="text-foreground font-medium">full-stack development</span>,{" "}
           <span className="text-foreground font-medium">machine learning</span>, and{" "}
           <span className="text-foreground font-medium">problem solving</span>.
         </p>

@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
 
 const skillGroups = [
-  { label: "Languages", items: ["Java", "Python", "HTML5", "CSS3"] },
-  { label: "Tools & Platforms", items: ["Git", "GitHub", "Cursor", "VS Code", "IntelliJ IDEA"] },
-  { label: "Data Analytics", items: ["Jupyter", "Power BI", "NumPy", "Pandas", "Seaborn", "Scikit-learn"] },
-  { label: "Soft Skills", items: ["Leadership", "Resilience", "Quick Learner", "Problem Solving"] },
+  { label: "Languages", items: ["HTML", "C++", "C", "Python"] },
+  { label: "Tools & Platforms", items: ["Power BI", "Tableau", "Excel"] },
+  { label: "Soft Skills", items: ["Problem-Solving", "Team Player", "Leadership", "Adaptability"] },
 ];
 
 const SkillsSection = () => (
